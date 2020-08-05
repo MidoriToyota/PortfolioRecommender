@@ -19,6 +19,7 @@ from collections import Counter
 # Dataset utilizado apenas para gerar gráficos
 df_market = pd.read_csv('data/df_market.csv', index_col='id')
 
+
 # Dataset utilizado para criar o modelo
 # dividido em 3 pois o github não aceita arquivos maiores que 100 MB.
 df1_preprocessed = pd.read_csv('data/df1_preprocessed.csv', index_col='id')
