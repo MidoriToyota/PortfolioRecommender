@@ -65,7 +65,7 @@ def app_page_layout(page_layout,
                     html.A(
                         id='gh-link',
                         children=['Ver no Github'],
-                        href="https://github.com/MidoriToyota/RecommenderWebApp",
+                        href="https://github.com/MidoriToyota/PortfolioRecommender", target='_blank',
                         style={'color': 'white' if light_logo else 'black',
                                'border': 'solid 1px white' if light_logo else 'solid 1px black'})],
 

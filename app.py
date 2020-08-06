@@ -90,25 +90,24 @@ def layout():
                                 das principais características das empresas do portfolio.'''),
 
                         html.P('''Notebooks relacionados:'''),
-                        html.Div([html.A('Análise exploratória e tratamento', href='https://midoritoyota.netlify.app/')]),
-                        html.Div([html.A('Pre processamento', href='https://midoritoyota.netlify.app/')]),
-                        html.Div([html.A('Criação do modelo', href='https://midoritoyota.netlify.app/')]),
-                        html.Div([html.A('Visualização dos resultados 1', href='https://midoritoyota.netlify.app/')]),
-                        html.Div([html.A('Visualização dos restultados 2', href='https://midoritoyota.netlify.app/')], style={'margin-bottom': '40px'}),
+                        html.Div([html.A('Análise exploratória e tratamento', href='https://midoritoyota.github.io/01-AnaliseExploratoriaTratamento.html', target='_blank')]),
+                        html.Div([html.A('Pre processamento', href='https://midoritoyota.github.io/02-PreProcessamento.html', target='_blank')]),
+                        html.Div([html.A('Criação do modelo', href='https://midoritoyota.github.io/03-ModeloOneClassSVM.html', target='_blank')]),
+                        html.Div([html.A('Visualização - Buble Chart', href='https://midoritoyota.github.io/04-VisualizaçãoDosResultadosBubbleChart.html', target='_blank')]),
+                        html.Div([html.A('Visualização - Heatmap', href='https://midoritoyota.github.io/05-VisualizaçãoDosResultadosHeatmap.html', target='_blank')]),
+                        html.Div([html.A('Visualização - Gráficos do App', href='https://midoritoyota.github.io/06-VisualizaçãoDosResultados-Análise.html', target='_blank')], style={'margin-bottom': '40px'}),
 
                         html.H4(className='what-is', children="Sobre a Autora"),
 
-                        html.P('''Oi, meu nome é Midori! Atualmente estou em processo de
-                                transição de carreira da Engenharia Civil para Ciência
-                                de Dados e, por esse motivo, realizo diversos projetos para
-                                botar em prática o que venho aprendendo sobre essa nova área.
-                                Desenvolvi o Portfolio Recommender como solução de um
+                        html.P('''Oi, meu nome é Midori! Sou formada e Engenharia Civil mas
+                                atualmente sigo em um processo de transição de carreira para Ciência
+                                de Dados. Por esse motivo, realizo diversos projetos para
+                                botar em prática o que venho aprendendo sobre essa nova área.'''),
+                        html.P('''Desenvolvi o Portfolio Recommender como solução de um
                                 problema proposto no projeto final do Aceleradev de
-                                Data Science. Se quiser saber mais sobre o projeto, você
+                                Data Science. Se gostou do projeto e deseja saber mais, você
                                 pode ver o código fonte acessando o meu portfolio no link
-                                abaixo. Também, estou aberta a novas oportunidades, então,
-                                se deseja me conhecer melhor me adicione no linkedin e
-                                vamos bater um papo! '''),
+                                abaixo ou me adicionar no Linkedin para trocarmos uma ideia!'''),
 
                         html.Div([
                             'Portfolio: ',
