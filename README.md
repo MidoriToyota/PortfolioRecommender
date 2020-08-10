@@ -1,21 +1,29 @@
 # Portfolio Recommender
----
 
-Endereço do app: https://portfoliorecommender.herokuapp.com/
+## Objetivo
 
-O Portfolio Recommender é uma aplicação web que fornece um serviço automatizado de recomendação de leads para um usuário dado sua atual lista de clientes (Portfólio).
+O Portfolio Recommender é o produto final do projeto proposto como conclusão do curso Aceleradev de Data Science da Codenation (Trybe).
 
-Ele foi criado para solucionar o problema de empresas que gostariam de saber quem são as demais empresas em um determinado mercado (população) que tem maior probabilidade de se tornarem seus próximos clientes. Ou seja, quem são os leads mais aderentes dadas as características dos clientes presentes no portfólio do usuário.
+O objetivo deste produto é fornecer um serviço automatizado que recomenda leads para um usuário dado sua atual lista de clientes (Portfólio).
 
-Além de retornar uma lista de empresas recomendadas, o Portfolio Recommender também fornece a visualização completa das principais características das empresas do portfolio.
+Link do app: https://portfoliorecommender.herokuapp.com/
 
-## Codenation (Trybe)
+## Contextualização
 
-O Portfolio Recommender é o produto final do projeto proposto como conclusão do curso Aceleradev de Data Science da Codenation (Trybe). Os dados foram fornecidos pela Codenation e são todos fictícios.
+Algumas empresas gostariam de saber quem são as demais empresas em um determinado mercado (população) que tem maior probabilidade se tornarem seus próximos clientes. Ou seja, a sua solução deve encontrar no mercado quem são os leads mais aderentes dado as características dos clientes presentes no portfólio do usuário.
 
-Link para as bases de dados fornecidas + Descrição das variáveis:
+Além disso, sua solução deve ser agnóstica ao usuário. Qualquer usuário com uma lista de clientes que queira explorar esse mercado pode extrair valor do serviço.
+
+Para o desafio, deverão ser consideradas as seguintes bases:
+
+Mercado: Base com informações sobre as empresas do Mercado a ser considerado. Portfolio 1: Ids dos clientes da empresa 1 Portfolio 2: Ids dos clientes da empresa 2 Portfolio 3: Ids dos clientes da empresa 3
+
+Obs: todas as empresas(ids) dos portfolios estão contidos no Mercado(base de população).
+
+Link para download das bases Mercado, Portfolio 1, Portfolio 2 e Portfolio 3:
 
 https://drive.google.com/drive/folders/1zQbJsMr81t_y9RYJX3ej1DNb8nPrIeYH?usp=sharing
+
 
 ### Requisitos técnicos obrigatórios do desafio
 
@@ -26,25 +34,24 @@ https://drive.google.com/drive/folders/1zQbJsMr81t_y9RYJX3ej1DNb8nPrIeYH?usp=sha
 
 ## Notebooks relacionados:
 
-[Análise exploratória e tratamento](https://midoritoyota.github.io/01-AnaliseExploratoriaTratamento.html)
-[Pre processamento](https://midoritoyota.github.io/02-PreProcessamento.html)
-[Criação do modelo](https://midoritoyota.github.io/03-ModeloOneClassSVM.html)
-[Visualização - Buble Chart](https://midoritoyota.github.io/04-Visualiza%C3%A7%C3%A3oDosResultadosBubbleChart.html)
-[Visualização - Heatmap](https://midoritoyota.github.io/05-Visualiza%C3%A7%C3%A3oDosResultadosHeatmap.html)
-[Visualização - Gráficos do App](https://midoritoyota.github.io/06-Visualiza%C3%A7%C3%A3oDosResultados-An%C3%A1lise.html)
+- [Análise exploratória e tratamento](https://midoritoyota.github.io/01-AnaliseExploratoriaTratamento.html)
+- [Pre processamento](https://midoritoyota.github.io/02-PreProcessamento.html)
+- [Criação do modelo](https://midoritoyota.github.io/03-ModeloOneClassSVM.html)
+- [Visualização - Buble Chart](https://midoritoyota.github.io/04-Visualiza%C3%A7%C3%A3oDosResultadosBubbleChart.html)
+- [Visualização - Heatmap](https://midoritoyota.github.io/05-Visualiza%C3%A7%C3%A3oDosResultadosHeatmap.html)
+- [Visualização - Gráficos do App](https://midoritoyota.github.io/06-Visualiza%C3%A7%C3%A3oDosResultados-An%C3%A1lise.html)
 
 ## Web app
 
-O link abaixo te leva até o aplicativo online. O aplicativo online tem todas as funcionalidades do aplicativo instalado localmente, porém, por limitação ne memória do servidor Heroku, o modelo fornece recomendações baseadas em apenas 10% dos dados disponíveis no dataset original.
+O aplicativo online tem todas as funcionalidades do aplicativo instalado localmente, porém, por limitações de memória do servidor Heroku, o modelo fornece recomendações baseadas em apenas 10% dos dados disponíveis no dataset original.
 
-https://portfoliorecommender.herokuapp.com/
+Link do app: https://portfoliorecommender.herokuapp.com/
 
+## Rodar app localmente
 
-## Instalação local
+Para instalar o Portfolio Recommender e rodar localmente na sua máquina, siga o passo à passo abaixo:
 
-Para instalar localmente siga o passo à passo abaixo:
-
-1. Fazer o download do repositório na sua máquina e executar o comando abaixo no terminal:
+1) Faça o download do repositório na sua máquina e execute o comando abaixo no terminal:
 
 ```
 git clone https://github.com/MidoriToyota/PortfolioRecommender.git
@@ -52,13 +59,13 @@ git clone https://github.com/MidoriToyota/PortfolioRecommender.git
 
 Obs: Você pode fazer o download manualmente também clicando em `Code` -> `Download ZIP`
 
-2. Na pasta do arquivo, abrir o terminal e fazer a instalação dos pacotes contidos em `requirements.txt`
+2) Na pasta do arquivo, abra o terminal e instale os pacotes contidos em `requirements.txt`
 
 ```
 pip install -r requirements.txt
 ```
 
-3. Na mesma pasta, rodar o app com o comando:
+3) Na mesma pasta, rode o app com o comando:
 
 ```
 python app.py
