@@ -111,12 +111,12 @@ def layout():
 
                         html.Div([
                             'Portfolio: ',
-                            html.A('midoritoyota.netlify.app', href='https://midoritoyota.netlify.app/')
+                            html.A('midoritoyota.netlify.app', href='https://midoritoyota.netlify.app/', target='_blank')
                         ]),
 
                         html.Div([
                             'Linkedin: ',
-                            html.A('www.linkedin.com/in/midoritoyota', href='https://www.linkedin.com/in/midoritoyota')
+                            html.A('www.linkedin.com/in/midoritoyota', href='https://www.linkedin.com/in/midoritoyota', target='_blank')
                         ]),
                         html.Br()
                     ])
@@ -137,7 +137,7 @@ def layout():
                                 className='control-download',
                                 children="Download dos dados de Exemplo"
                             ),
-                            href="https://drive.google.com/drive/folders/1_2iEzn03ID3XGTsQmSvOBnl32fg02efj?usp=sharing",
+                            href="https://drive.google.com/drive/folders/1_2iEzn03ID3XGTsQmSvOBnl32fg02efj?usp=sharing", target='_blank'
                         ),
 
                         html.Div(id='circos-uploaded-data', children=[
