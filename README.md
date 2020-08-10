@@ -1,12 +1,14 @@
 # Portfolio Recommender
 
-## Objetivo
-
 O Portfolio Recommender é o produto final do projeto proposto como conclusão do curso Aceleradev de Data Science da Codenation (Trybe).
+
+https://portfoliorecommender.herokuapp.com/
+
+## Objetivo
 
 O objetivo deste produto é fornecer um serviço automatizado que recomenda leads para um usuário dado sua atual lista de clientes (Portfólio).
 
-Link do app: https://portfoliorecommender.herokuapp.com/
+
 
 ## Contextualização
 
@@ -25,7 +27,7 @@ Link para download das bases Mercado, Portfolio 1, Portfolio 2 e Portfolio 3:
 https://drive.google.com/drive/folders/1zQbJsMr81t_y9RYJX3ej1DNb8nPrIeYH?usp=sharing
 
 
-### Requisitos técnicos obrigatórios do desafio
+## Requisitos técnicos obrigatórios do desafio
 
 - Utilizar técnicas de data science e machine learning para desenvolver o projeto;
 - Apresentar o desenvolvimento e outputs do modelo em um Jupyter Notebook ou outra tecnologia de apresentação de Output de modelos de Machine Learning;
@@ -45,27 +47,27 @@ https://drive.google.com/drive/folders/1zQbJsMr81t_y9RYJX3ej1DNb8nPrIeYH?usp=sha
 
 O aplicativo online tem todas as funcionalidades do aplicativo instalado localmente, porém, por limitações de memória do servidor Heroku, o modelo fornece recomendações baseadas em apenas 10% dos dados disponíveis no dataset original.
 
-Link do app: https://portfoliorecommender.herokuapp.com/
+https://portfoliorecommender.herokuapp.com/
 
 ## Rodar app localmente
 
 Para instalar o Portfolio Recommender e rodar localmente na sua máquina, siga o passo à passo abaixo:
 
-1) Faça o download do repositório na sua máquina e execute o comando abaixo no terminal:
+Faça o download do repositório na sua máquina e execute o comando abaixo no terminal:
 
 ```
 git clone https://github.com/MidoriToyota/PortfolioRecommender.git
 ```
 
-Obs: Você pode fazer o download manualmente também clicando em `Code` -> `Download ZIP`
+Obs: Você pode fazer o download manualmente também clicando em Code -> Download ZIP
 
-2) Na pasta do arquivo, abra o terminal e instale os pacotes contidos em `requirements.txt`
+Na pasta do arquivo, abra o terminal e instale os pacotes contidos em requirements.txt
 
 ```
 pip install -r requirements.txt
 ```
 
-3) Na mesma pasta, rode o app com o comando:
+Na mesma pasta, rode o app com o comando:
 
 ```
 python app.py
