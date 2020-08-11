@@ -1,8 +1,8 @@
 # Portfolio Recommender
 
-O Portfolio Recommender é o produto final do projeto proposto como conclusão do curso Aceleradev de Data Science da Codenation (Trybe).
+**_Web app com Plotly e Dash:_** https://portfoliorecommender.herokuapp.com/
 
-https://portfoliorecommender.herokuapp.com/
+O Portfolio Recommender é o produto final do projeto proposto como conclusão do curso Aceleradev de Data Science da Codenation (Trybe).
 
 ## Descrição do desafio
 
@@ -37,7 +37,7 @@ https://drive.google.com/drive/folders/1zQbJsMr81t_y9RYJX3ej1DNb8nPrIeYH?usp=sha
 
 ## Informação da solução
 
-### Notebooks relacionados:
+### *Notebooks relacionados*
 
 - [Análise exploratória e tratamento](https://midoritoyota.github.io/01-AnaliseExploratoriaTratamento.html)
 - [Pre processamento](https://midoritoyota.github.io/02-PreProcessamento.html)
@@ -46,30 +46,25 @@ https://drive.google.com/drive/folders/1zQbJsMr81t_y9RYJX3ej1DNb8nPrIeYH?usp=sha
 - [Visualização - Heatmap](https://midoritoyota.github.io/05-Visualiza%C3%A7%C3%A3oDosResultadosHeatmap.html)
 - [Visualização - Gráficos do App](https://midoritoyota.github.io/06-Visualiza%C3%A7%C3%A3oDosResultados-An%C3%A1lise.html)
 
-### Web app
+### *Web app*
 
 O aplicativo online tem todas as funcionalidades do aplicativo instalado localmente, porém, por limitações de memória do servidor Heroku, o modelo fornece recomendações baseadas em apenas 10% dos dados disponíveis no dataset original.
 
 https://portfoliorecommender.herokuapp.com/
 
-### Rodar app localmente
+### Como rodar o app localmente
 
 Para instalar o Portfolio Recommender e rodar localmente na sua máquina, siga o passo à passo abaixo:
 
-Faça o download do repositório na sua máquina e execute o comando abaixo no terminal ou faça o download manualmente clicando em Code -> Download ZIP
-
-```
+```bash
+# Download do repositório
 git clone https://github.com/MidoriToyota/PortfolioRecommender.git
-```
 
-Na pasta do arquivo, abra o terminal e instale os pacotes contidos em requirements.txt
-
-```
+# Instalar os pacotes do requirements.txt
 pip install -r requirements.txt
-```
 
-Na mesma pasta, rode o app com o comando:
-
-```
+# Rodar o app
 python app.py
 ```
+
+## funcionalidades
