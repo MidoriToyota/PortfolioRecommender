@@ -6,12 +6,12 @@ O Portfolio Recommender é o produto final do projeto proposto como conclusão d
 
 ## Descrição do desafio
 
-### Objetivo
+### *Objetivo*
 
 O objetivo deste produto é fornecer um serviço automatizado que recomenda leads para um usuário dado sua atual lista de clientes (Portfólio).
 
 
-### Contextualização
+### *Contextualização*
 
 Algumas empresas gostariam de saber quem são as demais empresas em um determinado mercado (população) que tem maior probabilidade se tornarem seus próximos clientes. Ou seja, a sua solução deve encontrar no mercado quem são os leads mais aderentes dado as características dos clientes presentes no portfólio do usuário.
 
@@ -28,7 +28,7 @@ Link para download das bases Mercado, Portfolio 1, Portfolio 2 e Portfolio 3:
 https://drive.google.com/drive/folders/1zQbJsMr81t_y9RYJX3ej1DNb8nPrIeYH?usp=sharing
 
 
-### Requisitos técnicos obrigatórios do desafio
+### *Requisitos técnicos obrigatórios do desafio*
 
 - Utilizar técnicas de data science e machine learning para desenvolver o projeto;
 - Apresentar o desenvolvimento e outputs do modelo em um Jupyter Notebook ou outra tecnologia de apresentação de Output de modelos de Machine Learning;
@@ -52,7 +52,7 @@ O aplicativo online tem todas as funcionalidades do aplicativo instalado localme
 
 https://portfoliorecommender.herokuapp.com/
 
-### Como rodar o app localmente
+### *Como rodar o app localmente*
 
 Para instalar o Portfolio Recommender e rodar localmente na sua máquina, siga o passo à passo abaixo:
 
@@ -67,4 +67,4 @@ pip install -r requirements.txt
 python app.py
 ```
 
-## funcionalidades
+## Funcionalidades
