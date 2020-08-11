@@ -4,7 +4,7 @@
 
 O Portfolio Recommender é o produto final do projeto proposto como conclusão do curso Aceleradev de Data Science da Codenation (Trybe).
 
-## Descrição do desafio
+## Sobre o desafio
 
 ### *Objetivo*
 
@@ -35,7 +35,10 @@ https://drive.google.com/drive/folders/1zQbJsMr81t_y9RYJX3ej1DNb8nPrIeYH?usp=sha
 - A análise deve considerar os seguintes pontos: análise exploratória dos dados, tratamento dos dados, avaliação de algoritmos, treinamento do modelo, avaliação de performance do modelo e visualização dos resultados;
 - Para a apresentação do projeto, o tempo entre o treinamento do modelo e o output deve ser menor que 20 min.
 
-## Informação da solução
+## Sobre a solução
+
+O Portfolio Recommender teve seu modelo criado com base no algorítimo de aprendizado semisupervisionado One Class SVM.
+O layout do site foi criado todo em Dash com a utilização do Plotly para criar os gráficos iterativos.
 
 ### *Notebooks relacionados*
 
@@ -68,3 +71,32 @@ python app.py
 ```
 
 ## Funcionalidades
+
+**_Upload dos dados do cliente_**
+
+O Portfolio Recommender foi criado de maneira que não funciona apenas com os dados de exemplo. Ele funciona com qualquer subgrupo dos dados de mercado.
+Portanto, o usuário deve inserir sua própria lista de clientes.
+
+<h3 align="center">
+  <img src="https://github.com/MidoriToyota/PortfolioRecommender/blob/master/img/upload.jpg" alt="Período de análise" width="600px" />
+  <br><br>
+</h3>
+
+**_Download da lista de recomendações_**
+
+Após os dados, é possível fazer o download da lista de recomendações gerada pelo modelo com apenas um clique.
+
+<h3 align="center">
+  <img src="https://github.com/MidoriToyota/PortfolioRecommender/blob/master/img/download.jpg" alt="Período de análise" width="600px" />
+  <br><br>
+</h3>
+
+**_Análise dos dados_**
+
+O cliente pode analisar os dados, tanto do portfolio quanto das recomendações feitas pelo modelo. As análises estão divididas em "Análise das variáveis categóricas",
+que é feita por meio de um gráfico pizza, e "Análise de variáveis numéricas" através de histogramas.
+
+<h3 align="center">
+  <img src="https://github.com/MidoriToyota/PortfolioRecommender/blob/master/img/analise.jpg" alt="Período de análise" width="600px" />
+  <br><br>
+</h3>
