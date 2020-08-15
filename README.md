@@ -4,6 +4,13 @@
 
 O Portfolio Recommender é o produto final do projeto proposto como conclusão do curso Aceleradev de Data Science da Codenation (Trybe).
 
+**_Vídeo Explicativo_**
+
+<h3 align="center">
+  <a href="https://youtu.be/nqyD6XmU6eg"><img src="https://github.com/MidoriToyota/PortfolioRecommender/blob/master/img/video.jpg" alt="Vídeo explicativo" width="600px" />
+  </a><br><br>
+</h3>
+
 ## Sobre o desafio
 
 ### *Objetivo*
